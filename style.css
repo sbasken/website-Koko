@@ -1,3 +1,18 @@
 body {
     background: rgb(193, 253, 248);
   }
+
+h1 {
+    color: green;
+}
+
+h2 {
+    background-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    font-style: italic;
+}
+
+p {
+    background-color: aliceblue;
+    padding: 10px 20px 10px 20px;
+}

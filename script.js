@@ -1,5 +1,5 @@
 const h2 = document.createElement("h2");
-h2.textContent = "Places we Visited";
+h2.textContent = "Places We Visited";
 document.querySelector("body").appendChild(h2);
 
 const h3 = document.createElement('h2');
