@@ -1,5 +1,10 @@
+#contact {
+    clear: left;
+}
+
+
 body {
-    background: rgb(96, 249, 234, 35%);
+    background: rgba(248, 249, 249, 0.35);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color:rgba(249, 185, 96, 0.938)
@@ -9,10 +14,10 @@ body {
 h1 {
     color: rgb(77, 75, 75);
     text-align: center;
-    padding-top: 160px;
+    padding-top: 210px;
     width: 100%;
     height: 600px;
-    background-image: url(mexico-best-beaches-akumal-beach.jpg);
+    background-image: url(Beach.jpeg);
     background-repeat: no-repeat;
     background-size: 90% 90%;
     background-position: center;
@@ -26,10 +31,15 @@ h2 {
     font-family: serif;
 }
 
+
+
 p {
     background-color: aliceblue;
     padding: 10px 20px 10px 20px;
     line-height: 1.2;
+    padding: 30px;
+    line-height: 48px;
+    padding: 10px 20px;
     
 }
 
@@ -37,20 +47,26 @@ img {
     border-radius: 4px;
     height: auto;
     max-width: 100%;
+
   }
 
 .topnav {
     background-color: rgb(243, 245, 247);
     overflow: hidden;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    
 }
 
 .topnav a {
     float: left;
-    color: #4885f6;
+    color: #689af6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+  
 }
 
 .topnav a:hover {
@@ -69,22 +85,23 @@ img {
     padding: 5px;
 }
 
+.column2 {
+    float: left;
+    width: 48%;
+    padding: 5px;
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
-  }
-
-.column2 {
-    float: left;
-    width: 49%;
-    padding: 5px;
+   
 }
 
-.row2::after::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
+.byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+}
   
