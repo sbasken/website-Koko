@@ -12,9 +12,9 @@ body {
   }
 
 h1 {
-    color: rgb(244, 248, 23);
+    color: rgb(252, 208, 49);
     text-align: center;
-    padding-top: 210px;
+    padding-top: 300px;
     width: 100%;
     height: 600px;
     background-image: url(/Users/sakibasken/Development/code/prework/website-Mexico/resources/images/Beach.jpeg);
@@ -23,6 +23,7 @@ h1 {
     background-position: center;
     font-family: monospace;
     font-size: 100px;
+    text-shadow: 2px 2px gray;
 
 }
 
